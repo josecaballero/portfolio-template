@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio | Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/media.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>   
+            <nav>
+                <ul>
+                    <li><a href="#caracteristicas">Sobre mi</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="bottom">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a> 
+            <a href="#"><i class="fa fa-linkedin"></i></a> 
+            <a href="#"><i class="fa fa-google-plus-square"></i></a> 
+        </div>
+
+        <section id="portada">    
+            <h1>Joe Snow<br><span class="profesion">Web Developer</span></h1>
+        </section>    
+
+        <section id="caracteristicas">
+            <div class="wrapper">
+                <h1 class="titulos">La web que necesitas.</h1>
+                <hr class="style-eight">
+                <h2 class="subtitulos">Front-end Development <span class="amp">&amp;</span> Back-end Development</h2>
+                <div id="bloque-caracteristicas">
+                    <div class="lenguaje">
+                        <h3>Estructura | Estilo</h3>
+                        <p>Maquetación en <strong>HTML5 & CSS3</strong> bajo los últimos estándares W3C para hacer sitios web rápidos y accesibles.</p>  
+                    </div>
+                    <div class="lenguaje">
+                        <h3>Interacción</h3>
+                        <p>Creación de páginas web dinámicas e interactivas con la ayuda de <strong>Javascript y jQuery</strong>.</p>                
+                    </div>
+                    <div class="lenguaje">
+                        <h3>Datos</h3>
+                        <p>Programación de lado servidor con <strong>PHP y MySQL</strong>. </p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <section id="videoblock">
+            <div class="wrapper">
+                <video preload autoplay controls loop>
+                    <source src="video/blackink.mp4" type="video/mp4">
+                    <source src="video/blackink.ogv" type="video/ogg">
+                    <p>Tu navegador no puede reproducir este formato de video</p>
+                </video>
+                <div id="textovideo">
+                    <p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <div class="wrapper">
+                <h1 class="titulos">Servicios</h1>
+                <hr class="style-eight">
+                <h2 class="subtitulos">Nos adaptamos a tus necesidades. Tú eliges.</h2>
+
+                <div id="bloque-servicios">
+                    <div class="responsive">
+                        <div class="icon_servicios">
+                        <i class="icon-window"></i>
+                        </div>
+                        <div class="text_servicios">
+                        <h3>Responsive</h3>
+                        <hr>
+                        <p>Preparada para móviles y tablets.</p>
+                        </div>
+                    </div>
+                    <div class="flexible">
+                        <div class="icon_servicios">
+                        <i class="icon-flow-merge"></i>
+                        </div>
+                        <div class="text_servicios">
+                        <h3>Flexible</h3>
+                        <hr>
+                        <p>Nos adaptamos a tus objetivos y necesidades.</p>  
+                        </div>
+                    </div>
+                    <div class="soporte">
+                        <div class="icon_servicios">
+                        <i class="icon-lifebuoy"></i>
+                        </div>
+                        <div class="text_servicios">
+                        <h3>Soporte</h3>
+                        <hr>
+                        <p>Servicio de mantenimiento y soporte técnico.</p>                                   </div>
+                    </div>  
+                </div>
+        </section>
+
+        <section id="skills">
+            <div class="wrapper">
+                <h1 class="titulos">Nuestras herramientas</h1>
+                <hr class="style-eight">
+                <h2 class="subtitulos">Estos son los entornos de programación que más utilizamos. También nos gusta Bootstrap y Foundation.</h2>
+            </div>
+            <div class="icon-skills">
+                <img src="icons/html5.svg" alt="icono html5 svg">
+                <img src="icons/css3.svg" alt="icono css3 svg">
+                <img src="icons/js.svg" alt="icono javascript svg">
+                <img src="icons/jquery.svg" alt="icono jquery svg">
+                <img src="icons/php.svg" alt="icono php svg">
+                <img src="icons/wordpress.svg" alt="icono wordpress svg">
+            </div>         
+        </section>
+
+        <section id="contacto">
+            <h1 class="titulos">Ponte en contacto!</h1>
+            <hr class="style-eight">
+            <div class="wrapper">
+
+                <form action="mail.php" method="post">
+                    <input type="text" name="name" placeholder="Nombre"><br><hr class="hr-contacto">
+                    <input type="email" name="email" placeholder="Correo"><br><hr class="hr-contacto">
+                    <textarea placeholder="Mensaje"></textarea><br><hr class="hr-contacto">
+                    <input type="submit" value="Enviar">
+                </form>
+        </section>
+    </body>
+</html>

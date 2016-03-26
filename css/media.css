@@ -1,0 +1,329 @@
+@media screen and (max-width: 1869px) and (min-width: 1502px){
+        #bloque-servicios{
+        align-items: flex-start;
+        display: flex;
+    }
+}
+@media screen and (max-width: 1648px) and (min-width: 1132px){
+        #bloque-caracteristicas{
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 1547px) and (min-width: 1315px){
+    #bloque-servicios{
+        align-items: flex-start;
+        display: flex;
+    }
+    #bloque-caracteristicas{
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 1407px){
+    #videoblock{
+        display: none; 
+    }
+    form{
+        float: none;
+        width: 100%;
+    }
+    header nav ul{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    header nav ul li{
+        display: inline-block;
+        float: none;
+    }
+    #contacto{
+        height: 600px;   
+
+    }
+    #contacto .wrapper{
+        width: 45%;
+    }
+    caracteristicas .wrapper h1{
+        padding: 0;
+    }
+    #foto{
+        display: none;
+    }
+    #caracteristicas{
+        margin-top: 0;
+        height: 600px;
+    }
+    #servicios{
+        margin-top: -60px;
+    }
+    #skills{
+        margin-top: 30px;
+    }
+    #servicios .titulos{
+        margin-top: 30px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        width: 90%;
+        
+
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1312px){
+    .responsive{
+        width: 100%;
+        margin-top: -50px;
+    } 
+
+    .flexible, .soporte{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #servicios{
+        height: 930px;
+    }
+    .icon-lifebuoy, .icon-flow-merge, .icon-window{
+        font-size: 150px;
+    }
+    .icon_servicios{
+        float: left;
+        width: 50%;
+    }
+    .text_servicios{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    #bloque-servicios p{
+        text-align: center;
+        width: 100%;
+    }
+    #caracteristicas{
+        height: 650px;
+    }
+        .subtitulos{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 1215px) and (min-width:1112px){
+        #bloque-caracteristicas{
+        align-items: flex-start;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1111px){
+    #caracteristicas{
+        height: 875px;
+    }
+    #bloque-caracteristicas .lenguaje{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    #bloque-caracteristicas .lenguaje p{
+        text-align: center;
+        width: 100%;
+    }
+    #bloque-caracteristicas{
+        display: block;
+    }
+    .icon-lifebuoy, .icon-flow-merge, .icon-window{
+        font-size: 120px;
+    }
+    #servicios{
+        height: 860px;
+    }
+}
+@media screen and (max-width: 972px){
+    #caracteristicas{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 951px){
+    #servicios{
+        height: 900px;
+    }
+    .icon-lifebuoy, .icon-flow-merge, .icon-window{
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 781px){
+    #caracteristicas{
+        height: 860px;
+    }
+    .icon-skills > img{
+        width: 60px;
+        height: 60px;
+    }
+    .icon-skills{
+        height: 190px;
+    }
+    #portada h1{
+        font-size: 6.5em;
+    }
+    .icon-lifebuoy, .icon-flow-merge, .icon-window{
+        font-size: 80px;
+    }
+    .titulos{
+        font-size: 4em;
+    }
+    .subtitulos{
+        font-size: 2.5em;
+    }
+    #servicios{
+        height: 825px;
+    }
+}
+@media screen and (max-width: 696px){
+    #servicios{
+        height: 890px;
+    }
+
+}
+@media screen and (max-width: 678px){
+    #caracteristicas{
+        height: 930px;
+    }
+
+}
+@media screen and (max-width: 670px){
+    .icon-skills > img{
+        width: 10%;
+        margin: 10px;
+
+    }
+}
+@media screen and (max-width: 614px){
+    #servicios{
+        height: 950px;
+    }
+}
+@media screen and (max-width: 587px){
+    #caracteristicas{
+        height: 980px;
+    }
+    .icon-skills > img{
+        margin: 10px;
+    }
+    .icon-skills{
+        height: 150px;
+    }
+    #servicios{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 550px){
+    #caracteristicas{
+        height: 975px;
+    }
+}
+@media screen and (max-width: 510px){
+    #caracteristicas{
+        height: 1000px;
+    }
+    #servicios{
+        height: 940px;
+    }
+    #portada h1{
+        font-size: 5em;
+    }
+}
+@media screen and (max-width: 461px){
+    #servicios{
+        height: 930px;
+    }
+    #caracteristicas{
+        height:1000px;
+    }
+    .icon-skills > img{
+        width: 9%;
+        margin: 6px;
+
+    }
+        .icon-skills{
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 442px){
+    #caracteristicas{
+        height: 1090px;
+    }
+    #bloque-servicios h3{
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (max-width: 411px){
+    nav ul li a{
+        font-size: 0.9em;
+    }
+        #portada h1{
+        font-size: 4em;
+    }
+
+}
+@media screen and (max-width: 399px){
+    #contacto h1.titulos{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    input[type="submit"]{
+        width: 85%;
+        text-align: center;
+    }
+        #servicios{
+        height: 990px;
+    }
+        #caracteristicas{
+        height: 1150px;
+    }
+
+}
+@media screen and (max-width: 388px){
+    #caracteristicas{
+        height: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    nav ul li a{
+        font-size: 0.7em;
+    }
+@media screen and (max-width: 380px){
+    .titulos{
+        font-size: 3em;
+    }
+
+}
+@media screen and (max-width: 354px){
+    input[type="submit"]{
+        width: 70%;
+        text-align: center;
+
+    }
+}
+@media screen and (max-width: 369px){
+        #servicios{
+        height: 1025px;
+    }
+        #portada h1{
+        font-size: 3.5em;
+    }
+
+}
+@media screen and (max-width: 338px){
+        #caracteristicas{
+        height: 1190px;
+    }
+}

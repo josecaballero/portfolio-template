@@ -1,0 +1,444 @@
+
+/* FUENTES */
+
+@font-face {
+    font-family: 'BrandonBold';
+    src: url('../fonts/brandon_bld-webfont.eot');
+    src: url('../fonts/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/brandon_bld-webfont.woff') format('woff'),
+        url('../fonts/brandon_bld-webfont.ttf') format('truetype'),
+        url('../fonts/brandon_bld-webfont.svg#brandon_grotesquebold') format('svg'),
+        url('../fonts/brandon_bld-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrandonReg';
+    src: url('../fonts/brandon_reg-webfont.eot');
+    src: url('../fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/brandon_reg-webfont.woff') format('woff'),
+        url('../fonts/brandon_reg-webfont.ttf') format('truetype'),
+        url('../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg'),
+        url('../fonts/brandon_reg-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrandonLight';
+    src: url('../fonts/brandon_light-webfont.eot');
+    src: url('../fonts/brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/brandon_light-webfont.woff') format('woff'),
+        url('../fonts/brandon_light-webfont.ttf') format('truetype'),
+        url('../fonts/brandon_light-webfont.svg#brandon_grotesque_regularRg') format('svg'),
+        url('../fonts/brandon_light-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.eot?43964498');
+    src: url('../fonts/fontello.eot?43964498#iefix') format('embedded-opentype'),
+        url('../fonts/fontello.woff?43964498') format('woff'),
+        url('../fonts/fontello.ttf?43964498') format('truetype'),
+        url('../fonts/fontello.svg?43964498#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+}
+
+/* GENERAL */ 
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+html{
+    background: url(../imagenes/underground.jpg) no-repeat center;
+    background-size: cover;
+}
+body,html{
+    height: 100%;  
+}
+body{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.titulos{
+    text-align: center;  
+    width: 100%;
+    font-size: 5.5em;
+    padding: 20px;
+    font-family: "BrandonBold";
+    color: #0D0D0D;
+}
+#caracteristicas .wrapper h1{
+    margin-top: 50px;
+}
+.subtitulos{
+    text-align: center;  
+    width: 100%;
+    font-size: 3.5em;
+    font-family: "BrandonLight";
+    color: #0D0D0D;
+    padding: 10px;
+    font-weight: lighter;
+}
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+hr {
+    background: #0D0D0D; 
+    clear: both; 
+    float: none; 
+    width: 50px; 
+    height: 1px;
+    margin: 0 auto;
+    border: none; 
+    margin-top: 10px;
+}
+.hr-contacto {
+    width: 100%;
+}
+
+/* MARCO */ 
+header{
+    height: 40px;
+    width: 100%;
+    background: #F0F0F0;
+    position: fixed;
+    z-index: 9999;
+}
+div.left{
+    height: 100%;
+    left: 0;
+    width: 40px;
+    background: #F0F0F0;
+    position: fixed;
+}
+div.right{
+    height: 100%;
+    right: 0;
+    width: 40px;
+    background: #F0F0F0;
+    position: fixed;
+}
+div.bottom{
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    background: #F0F0F0;
+    position: fixed;
+}
+
+/* PORTADA */
+#portada{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+#portada h1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 800;
+    font-size: 8em;
+    color: #fff; 
+    font-family: "BrandonBold";
+}
+#portada span.profesion{
+    font-size: 0.5em;
+    font-family: 'BrandonReg', sans-serif;
+    position: relative;
+    bottom: 35px;
+    letter-spacing: 1px;
+}
+header nav ul{
+    width: 500px;
+    float: right;
+}
+header nav ul li{
+    list-style: none;
+    width: 20%;
+    float:left;
+    padding: 6px;
+    font-family: "BrandonReg", sans-serif;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+header nav li a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+.bottom{
+    padding: 12px 0 0 40px;
+    font-size: 16px; 
+    color: #0D0D0D;
+}
+.bottom i{
+    margin-right: 15px;
+    color: #000;
+}
+li > a {
+  position: relative;
+  color: #222;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #222;
+  opacity: 1;
+}
+li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* SERVICIOS */
+.wrapper{
+    width: 66%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.amp{
+    font-size: 30px;
+}
+#caracteristicas{
+    background: #fff;
+    height: 500px;
+    margin-top: 100px;
+}
+#bloque-caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bloque-caracteristicas .lenguaje{
+    /* display: inline-block; */
+    margin-top: 60px;
+}
+#bloque-caracteristicas .lenguaje h3{
+    font-size: 2.3em;
+    font-family: "BrandonReg";
+    color: #0D0D0D;
+    letter-spacing: 0.5px;
+}
+#bloque-caracteristicas .lenguaje p{
+    width: 70%;
+    font-size: 2.2em;
+    font-family: "BrandonLight";
+    margin-top: 20px;
+    color: #0D0D0D;
+}
+.icon-lifebuoy:before { content: '\e800'; } /* 'ÃƒÂ®Ã‚Â Ã¢â€šÂ¬' */
+.icon-flow-merge:before { content: '\e801'; } /* 'ÃƒÂ®Ã‚Â Ã‚Â' */
+.icon-window:before { content: '\e802'; } /* 'ÃƒÂ®Ã‚Â Ã¢â‚¬Å¡' */
+
+/* VIDEO */
+#videoblock{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    height: 350px;
+}
+#videoblock .wrapper{
+    background: #8F3A5B;
+}
+video{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+#textovideo{
+    float: left;
+    width: 50%;   
+    padding: 20px 0 0 50px;
+}
+#textovideo p{
+    font-size: 1.8em;
+    color: #fff;
+    width: 80%;
+    font-family: "BrandonLight";
+    text-align: left;
+}
+
+/*FUNCIONES */
+#servicios{
+    background: #F0F0F0;
+    height: 600px;
+    margin-top: 100px;
+}
+#servicios .titulos{
+    margin-top: 50px;
+}
+#bloque-servicios{
+    margin-top: 80px;
+}
+.responsive,.flexible,.soporte{
+    display: inline-block;
+    text-align: center;
+    width: 33.1%;
+}
+.responsive>p,.flexible>p,.soporte>p{
+    width: 70%;
+    margin: 0 auto;
+}
+#bloque-servicios h3{
+    font-size: 2.2em;
+    font-family: "BrandonBold";
+    color: #0D0D0D;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+#bloque-servicios p{
+    width: 100%;
+    font-size: 2.3em;
+    font-family: "BrandonLight";
+    margin-top: 20px;
+    color: #0D0D0D;
+}
+.icon-lifebuoy,.icon-flow-merge,.icon-window{
+    font-size: 50px;
+    color: #0D0D0D;
+}
+
+/* SKILLS*/ 
+#skills{
+    margin-top: 50px;
+}
+.icon-skills{
+    height: 240px;
+    text-align: center;
+    margin-top: 80px;
+    background: #957186;
+    margin-botom: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-skills > img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+/* CONTACTO */
+#contacto{
+    height: 600px;
+    background: #F0F0F0;
+}
+#contacto h1.titulos{
+    padding-top: 65px;
+}
+#contacto .wrapper{
+    background: #F0F0F0;
+    margin-top: 50px;
+}
+#foto{
+    background: #F5F5F5;
+    height: 347px;
+    width: 280px; 
+    margin: 0 auto;
+    float: right;
+}
+#foto img{
+    opacity: 0.2;
+}
+form{
+    border: 0;
+    float: left;
+    width: 50%;
+    height: 390px;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 50%;
+    margin-bottom: 5px;
+    margn-bottom: -10px;
+    background: #EFEFEF;
+    font-size: 2em;
+    border: none;
+    outline:none;
+    color: #0D0D0D;
+}
+textarea{
+    height: 140px;
+}
+input[type="submit"]{
+    margin-top: 22px;
+    margin-left: 22px;
+    padding: 14.5px;
+    background: #EFEFEF;
+    color: #0D0D0D;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.6em;
+    border: 1px solid #0D0D0D;
+    font-family: "BrandonReg";
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+input[type="submit"]:hover{
+    background: #511126;
+    color: #fff;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+    color: #0D0D0D;
+    font-family: "BrandonLight";
+
+}
+::-moz-placeholder {
+    color: #0D0D0D;
+    font-family: "BrandonLight";
+} 
+:-ms-input-placeholder {
+    color: #0D0D0D;
+    font-family: "BrandonLight";
+} 
+:-moz-placeholder {
+    color: #0D0D0D;
+    font-family: "BrandonLight";
+}

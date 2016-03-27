@@ -419,6 +419,7 @@ input[type="submit"]{
     font-family: "BrandonReg";
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    transition: background .3s ease-out;
 }
 input[type="submit"]:hover{
     background: #511126;
